@@ -1,0 +1,357 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+
+}
+body{
+    background: #00041A;
+}
+/* Navbar Section */
+.header{
+    position: fixed;
+    width: 100%;
+    height: 67px;
+    background: rgba(0, 4, 26, 0.98);    z-index:3;
+}
+.emoji__nav{
+    position: fixed;
+    left: 60px;
+    top: -5px;
+    width: 80px;
+    height: 80px;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+}
+.list__navbar{
+    font-family: sans-serif;
+    position: relative;
+    position: fixed;
+    left: 50%;
+    list-style: none;
+    top: 25px;
+    
+}
+ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+}
+.about{
+    position: fixed;
+    left: 437px;
+    
+}
+.projects{
+    position: fixed;
+    left: 607px;
+}
+.skills{
+    position: fixed;
+    left: 807px;
+}
+.contact{
+    position: fixed;
+    left: 968px;
+}
+.linkedin__logo{
+    position: fixed;
+    width: 45px;
+    left: 1237px;
+    top: 12px;
+}
+.github__logo{
+    position: fixed;
+    width: 45px;
+    left: 1298px;
+    top: 12px;
+}
+.instagram__logo{
+    position: fixed;
+    width: 45px;
+    left: 1359px;
+    top: 12px;
+}
+/* About Section */
+.about__me{
+    position: absolute;
+    left: 93px;
+    top: 107px;
+    width: 1254px;
+    height: 490px;
+    background: rgba(255, 255, 255, 0.87);
+    border-radius: 20px;
+}
+.name{
+    font-weight: normal;
+    font-size: 64px;
+    font-weight: lighter;
+    position: absolute;
+    left: 150px;
+    top: 5%;
+    font-family: 'Poppins', sans-serif;
+}
+.tweet{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: flex-end;
+    text-align: justify;
+    position: absolute;
+    left: 150px;
+    top: 140px;
+}
+.sentence{
+    font-family: Poppins;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 37px;
+    position: absolute;
+    top: 320px;
+    left: 140px;
+
+    color: #626161;
+}
+.profile__picture{
+    position: absolute;
+    left: 76%;
+    top: -10%;
+    width: 300px;
+}
+/* Resume Bar Section */
+
+.resume{
+    width: 1254px;
+    height: 100px; 
+    position: absolute;
+    left: 93px;
+    top: 650px;
+    background: #262F51;
+    border-radius: 50px;
+}
+.resume__projects{
+    color: white;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 42px;
+    line-height: 56px;
+    position: absolute;
+    left: 70px;
+    top: 20%;
+}
+.resume__experience{
+    color: white;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 42px;
+    line-height: 56px;
+    position: absolute;
+    left: 35%;
+    top: 20%;
+}
+/* Section Projects */
+.projects__container{
+    position: absolute;
+    width: 100%;
+    height: 702px;
+    top: 870px;
+}
+.projects__txt{
+    color: white;
+    position: absolute;
+    left: 555px;
+    top: -10px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 96px;
+
+    /* identical to box height */
+    text-align: center;
+}
+.project__one{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #5A5C96;
+    border-radius: 50px;
+    width: 398px;
+    height: 580px;
+    left: 67px;
+    top: 102px;
+    background: #5A5C96;
+    border-radius: 50px;
+
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 108px;
+    text-align: center;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+}
+.project__two{
+    position: absolute;  
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 108px;
+    text-align: center;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    
+}
+.project__two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 398px;
+    height: 580px;
+    left: 521px;
+    top: 102px;
+    background: #5A5C96;
+    border-radius: 50px;
+  }
+  .project__two>*:first-child {
+      align-self: stretch;
+  }
+  .project__two .selected {
+      align-self: center;
+
+}
+.project__three{
+    position: absolute;
+    width: 398px;
+    height: 580px;
+    left: 975px;
+    top: 102px;
+    background: #5A5C96;
+    border-radius: 50px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 108px;
+    text-align: center;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+}
+/* Skills Section */
+.my__skills{
+    position: absolute;
+    top: 1600px;
+    width: 100%;
+    height: 600px;
+}
+.my__skills--txt{
+    color: white;
+    position: absolute;
+    left: 42%;
+    top: 0px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 96px;
+
+    /* identical to box height */
+    text-align: center;
+}
+.my__skills--container{
+    position: absolute;
+    width: 100%;
+    height: 400px;
+    left: 0px;
+    top: 160px;
+    background: #CECECE;
+}
+ul#menu li {
+    display: inline-flex;
+    margin-top: 30px;
+    margin-left: 50px;
+    list-style: none;
+}
+ul#menu__2 li {
+    display: inline-flex;
+    margin-top: 30px;
+    margin-left: 50px;
+    list-style: none;
+}
+/* Icons Style */
+#icon__one{
+    color: #c68dd9;
+    }
+#icon__two{
+color: #c68dd9;
+}
+/* form Section */
+.form__contact{
+    position: absolute;
+    top: 2360px;
+    width: 100%;
+    height: 900px;
+}
+.form__contact--display{
+    position: absolute;
+    width: 986px;
+    height: 646px;
+    left: 17%;
+    top: 0px;
+
+    background: #262F51;
+    border-radius: 50px;
+}
+.left__form--section{
+    position: absolute;
+    left: 10px;
+    flex-direction: row;
+}
+/* Animations Section */
+
+.wrapper {
+    height: 100vh;
+    /*This part is important for centering*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  
+  .sentence {
+    width: 36.2ch;
+    animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 2px solid;
+    font-family: Poppins;
+    font-size: 1.7em;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0
+    }
+  }
+      
+  @keyframes blink {
+    50% {
+      border-color: transparent
+    }
+  }

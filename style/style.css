@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.header{
+    position: fixed;
+    width: 100%;
+    height: 67px;
+    background-color: #0F1D40;
+    z-index:3;
+}
+.emoji__nav{
+    position: fixed;
+    left: 60px;
+    top: -5px;
+    width: 80px;
+    height: 80px;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+}
+.list__navbar{
+    font-family: sans-serif;
+    position: relative;
+    position: fixed;
+    left: 50%;
+    list-style: none;
+    top: 25px;
+    
+}
+ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+}
+.about{
+    position: fixed;
+    left: 437px;
+}
+.projects{
+    position: fixed;
+    left: 607px;
+}
+.skills{
+    position: fixed;
+    left: 807px;
+}
+.contact{
+    position: fixed;
+    left: 968px;
+}
+.linkedin__logo{
+    position: fixed;
+    width: 45px;
+    left: 1237px;
+    top: 12px;
+}
+.github__logo{
+    position: fixed;
+    width: 45px;
+    left: 1298px;
+    top: 12px;
+}
+.instagram__logo{
+    position: fixed;
+    width: 45px;
+    left: 1359px;
+    top: 12px;
+}
+.about__me{
+    position: absolute;
+    left: 93px;
+    top: 107px;
+    width: 1254px;
+    height: 450px;
+    background: rgba(229, 229, 229, 0.60);
+}
+.name{
+    font-weight: normal;
+    font-size: 64px;
+    font-weight: lighter;
+    position: absolute;
+    left: 150px;
+    top: 5%;
+    font-family: 'Poppins', sans-serif;
+}
+.tweet{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: flex-end;
+    text-align: justify;
+    position: absolute;
+    left: 150px;
+    top: 140px;
+}
+.sentence{
+    font-family: Poppins;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 37px;
+    position: absolute;
+    top: 320px;
+    left: 140px;
+
+    color: #626161;
+}
+.profile__picture{
+    position: absolute;
+    left: 76%;
+    top: -10%;
+    width: 300px;
+}
+
+.resume{
+    width: 1254px;
+    height: 100px; 
+    position: absolute;
+    left: 93px;
+    top: 620px;
+    background-color: #0F1D40;
+    border-radius: 50px;
+}
+.resume__projects{
+    color: white;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 42px;
+    line-height: 56px;
+    position: absolute;
+    left: 70px;
+    top: 20%;
+}
+.resume__experience{
+    color: white;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 42px;
+    line-height: 56px;
+    position: absolute;
+    left: 35%;
+    top: 20%;
+}
+.wrapper {
+    height: 100vh;
+    /*This part is important for centering*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  
+  .sentence {
+    width: 36.2ch;
+    animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 2px solid;
+    font-family: Poppins;
+    font-size: 1.7em;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0
+    }
+  }
+      
+  @keyframes blink {
+    50% {
+      border-color: transparent
+    }
+  }
