@@ -5,14 +5,14 @@
 
 }
 body{
-    background: #00041A;
+    background: #F0A500;
 }
 /* Navbar Section */
 .header{
     position: fixed;
     width: 100%;
     height: 67px;
-    background: rgba(0, 4, 26, 0.98);    z-index:3;
+    background: #082032;    z-index:3;
 }
 .emoji__nav{
     position: fixed;
@@ -77,9 +77,9 @@ ul li a {
 /* About Section */
 .about__me{
     position: absolute;
-    left: 93px;
+    left: 115px;
     top: 107px;
-    width: 1254px;
+    width: 1454px;
     height: 490px;
     background: rgba(255, 255, 255, 0.87);
     border-radius: 20px;
@@ -126,12 +126,12 @@ ul li a {
 /* Resume Bar Section */
 
 .resume{
-    width: 1254px;
+    width: 1500px;
     height: 100px; 
     position: absolute;
     left: 93px;
     top: 650px;
-    background: #262F51;
+    background: #334756;
     border-radius: 50px;
 }
 .resume__projects{
@@ -154,12 +154,23 @@ ul li a {
     left: 35%;
     top: 20%;
 }
+.resume_certificate{
+    color: white;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 42px;
+    line-height: 56px;
+    position: absolute;
+    left: 70%;
+    top: 20%;
+}
+
 /* Section Projects */
 .projects__container{
     position: absolute;
     width: 100%;
     height: 702px;
-    top: 870px;
+    top: 950px;
 }
 .projects__txt{
     color: white;
@@ -180,13 +191,12 @@ ul li a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: #5A5C96;
     border-radius: 50px;
     width: 398px;
     height: 580px;
     left: 67px;
     top: 102px;
-    background: #5A5C96;
+    background: #000000;
     border-radius: 50px;
 
 
@@ -223,7 +233,7 @@ ul li a {
     height: 580px;
     left: 521px;
     top: 102px;
-    background: #5A5C96;
+    background: #000000;
     border-radius: 50px;
   }
   .project__two>*:first-child {
@@ -239,19 +249,37 @@ ul li a {
     height: 580px;
     left: 975px;
     top: 102px;
-    background: #5A5C96;
+    background: #000000;
     border-radius: 50px;
 
     font-family: Poppins;
     font-style: normal;
     font-weight: bold;
-    font-size: 72px;
+    font-size: 52px;
     line-height: 108px;
     text-align: center;
     display:flex;
     justify-content: center;
     align-items: center;
     color: #FFFFFF;
+}
+.project__three {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 398px;
+    height: 580px;
+    left: 1150px;
+    top: 102px;
+    background: #000000;
+    border-radius: 50px;
+  }
+  .project__two>*:first-child {
+      align-self: stretch;
+  }
+  .project__two .selected {
+      align-self: center;
+
 }
 /* Skills Section */
 .my__skills{
@@ -301,6 +329,9 @@ ul#menu__2 li {
 #icon__two{
 color: #c68dd9;
 }
+#icon__three{
+    color: #c68dd9;
+    }
 /* form Section */
 .form__contact{
     position: absolute;
