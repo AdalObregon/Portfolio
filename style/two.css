@@ -41,37 +41,46 @@ ul li a {
 }
 .about{
     position: fixed;
-    left: 437px;
-    
+    left: 537px;
+    font-weight: bolder;
 }
 .projects{
     position: fixed;
-    left: 607px;
+    left: 707px;
+    font-weight: bolder;
 }
 .skills{
     position: fixed;
-    left: 807px;
+    left: 907px;
+    font-weight: bolder;
 }
 .contact{
     position: fixed;
-    left: 968px;
+    left: 1068px;
+    font-weight: bolder;
 }
 .linkedin__logo{
     position: fixed;
     width: 45px;
-    left: 1237px;
+    left: 1437px;
     top: 12px;
 }
 .github__logo{
     position: fixed;
     width: 45px;
-    left: 1298px;
+    left: 1498px;
     top: 12px;
 }
 .instagram__logo{
     position: fixed;
     width: 45px;
-    left: 1359px;
+    left: 1559px;
+    top: 12px;
+}
+.dribbble__logo{
+    position: fixed;
+    width: 45px;
+    left: 1615px;
     top: 12px;
 }
 /* About Section */
@@ -397,11 +406,11 @@ color: #c68dd9;
   .sentence {
     width: 46.2ch;
     animation: typing 1s steps(22), blink .5s step-end infinite alternate;
-    white-space: nowrap;
+    white-space:nowrap;
     overflow: hidden;
     border-right: 6px solid;
     font-family: Poppins;
-    font-size: 1.7em;
+    font-size: 27px;
   }
   
   @keyframes typing {
